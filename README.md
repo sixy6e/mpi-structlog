@@ -25,7 +25,7 @@ log.warning('Careful')
 log.error('Woops')
 ```
 
-Also, see [mock\_execution.py](https://github.com/sixy6e/mpi-structlog/examples/mock_execution.py) in [examples](https://github.com/sixy6e/mpi-structlog/examples) that demonstrates using a scheduler and a pool of workers all logging structured entries to the same file (does require [schwimmbad](https://github.com/adrn/schwimmbad/tree/master) for creating an MPI pool of workers).
+Also, see [mock\_execution.py](https://github.com/sixy6e/mpi-structlog/blob/develop/examples/mock_execution.py) in [examples](https://github.com/sixy6e/mpi-structlog/blob/develop/examples) that demonstrates using a scheduler and a pool of workers all logging structured entries to the same file (does require [schwimmbad](https://github.com/adrn/schwimmbad/tree/master) for creating an MPI pool of workers).
 The following example demonstrates 4 processors working on 16 tasks, and all processors writing structured log entries to a file named "execution.log".
 
 ```shell
@@ -41,7 +41,7 @@ mpi-structlog depends on the following packages:
 * [mpi4py](https://github.com/mpi4py/mpi4py)
 * [structlog](https://github.com/hynek/structlog)
 
-Optional (for running [mock\_execution.py](https://github.com/sixy6e/mpi-structlog/examples/mock_execution.py))
+Optional (for running [mock\_execution.py](https://github.com/sixy6e/mpi-structlog/blob/develop/examples/mock_execution.py))
 
 * [schwimmbad](https://github.com/adrn/schwimmbad/tree/master)
 

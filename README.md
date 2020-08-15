@@ -41,7 +41,7 @@ mpi-structlog depends on the following packages:
 * [mpi4py](https://github.com/mpi4py/mpi4py)
 * [structlog](https://github.com/hynek/structlog)
 
-Optional (for running [mock\_execution.py](https://github.com/sixy6e/mpi-structlog/examples/mock_execution))
+Optional (for running [mock\_execution.py](https://github.com/sixy6e/mpi-structlog/examples/mock_execution.py))
 
 * [schwimmbad](https://github.com/adrn/schwimmbad/tree/master)
 
